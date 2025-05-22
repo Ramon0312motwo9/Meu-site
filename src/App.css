@@ -1,0 +1,142 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/xURotp-9nHY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AGkBYAC4AOKAgwIABABGDQgZShAMA8=&rs=AOn4CLA5m4aU1Okw53cfPa8uU0An3zd72A);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-image: url(https://i.kym-cdn.com/photos/images/original/002/321/605/770.jpg);
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: sans-serif;
+  opacity: 0.75;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #00ff22;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ffaa;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mensagem {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.mensagem.erro {
+  background-color: #f8d7da;
+  color: #ffffff;
+  border: 1px solid #f5c6cb;
+}
+
+img{
+  margin: 130px;
+  text-align: center;
+}
+
+.video-container.left {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 20px;
+}
+
+.video-container.left iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.video-container.left iframe:hover {
+  transform: scale(1.02);
+}
+
+.homenagem-pai {
+  background-color: #e1f0f0;
+  color: #0b3d3d;
+  border-left: 6px solid #25d366;
+  padding: 20px 30px;
+  margin: 30px auto;
+  max-width: 600px;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.homenagem-pai h2 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.foto-pai {
+  margin: 20px auto;
+  max-width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  display: block;
+}
+
+.homenagem-pai p {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.data-homenagem {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #065656;
+  font-weight: 600;
+}
+
+.musica-whatsapp {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.musica-whatsapp h2 {
+  color: #128C7E;
+  margin-bottom: 10px;
+}
+
+
+
